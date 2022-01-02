@@ -41,6 +41,11 @@ function submit() {
     const valContent = document.getElementById("content").value;
     const valSection = document.getElementById("section").value;
 
+    if (valTitle == "" || valContent == "" || valSection == "") {
+        alert("값을 입력해주세요")
+        return
+    }
+
     let valNote = {
         "title": valTitle,
         "content": valContent,
