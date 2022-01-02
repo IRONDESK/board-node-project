@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+* {
+    font-family: 'pretendard';
+}
+
+.title {
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 43px;
+    font-size: 45px;
+    margin-bottom: 18px;
+    letter-spacing: -1px;
+}
+
+main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    gap: 37px;
+}
+
+.font-pen {
+    display: block;
+    margin-left: -3px;
+    font-family: 'Damion';
+    font-size: 55px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightside {
+    width: 300px;
+    padding: 12px;
+    overflow-y: scroll;
+}
+
+input,
+textarea {
+    width: 360px;
+    border: none;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 25px 0;
+    font-size: 17px;
+    border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+    filter: drop-shadow(0px 0px 6px #888);
+    outline: none;
+}
+
+#memoSubmitBtn {
+    cursor: pointer;
+    width: 110px;
+    padding: 7px 12px;
+    background-color: #888;
+    border: 3px solid #888;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+}
+#memoSubmitBtn:hover {
+    background-color: #fff;
+    border: 3px solid #888;
+    color: #888;
+}
+
+.item-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+.title-text {
+    font-weight: 800;
+    font-size: 110%;
+}
+.option-text {
+    display: inline-block;
+    font-size: 90%;
+    color: #555;
+}
+.option-text span {
+    cursor: pointer;
+}
+
+.note p {
+    display: block;
+}
+.note p:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+.note p:last-child {
+    margin-bottom: 60px;
+}
